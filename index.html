@@ -1,0 +1,86 @@
+<html>
+    <head>
+    <title>centering elements</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+         </head>
+    <body>
+        <center>
+        <header>
+        
+            <h1>
+                centering elements
+            
+            </h1>
+           
+        </header>
+        <hr>
+        <div class="main"><button  onclick="change()" id="btn" >click me</button>
+            <br>
+            <label id="demo"></label>
+        </div>
+        </center>
+        </body>
+        <style>
+            body{
+                background-image: url(photo-1589497836818-9ad2fa1df1a0.jpeg);
+                
+            }
+            h1{
+                font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+            }
+            .main{
+                width:900px;
+                height:800px;
+                border:2px solid red;
+                
+            }
+            
+            button{
+                border-radius: 15px;
+                background-color:cadetblue;
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                top:450;
+                left:450;
+                transform: translate(-50%,-50%);
+            }
+            label{
+                position:absolute;
+                top:530;
+                left:450;
+                transform: translate(-50%,-50%);
+            }
+            @media screen and (max-width: 700px) {
+                button {
+                    width:200px;
+                    height: 150px;
+                    background-color:lightpink;
+                    
+                }
+                label{
+                    width: :250px;
+                    height: :100px;
+                    top:550px;
+                    
+                }
+                
+            }
+            @media screen and (min-width:701px) and (max-width: 1200px){
+                button{
+                    width: 100px;
+                    height: 50px;
+                    background-color:lightpink;
+                    
+                    
+                }
+                body{
+                    background-color: #a38ede;
+                }
+            }
+        </style>
+   
+</html>
